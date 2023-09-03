@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Convertor</title>
+   <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+   <nav>
+      <div class="logo">MyCurrencyConvertor</div>
+      <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">About Us</a></li>
+        <li><a href="">Contact</a></li>
+      </ul>
+   </nav> 
+
+   <div class="container">
+      <h1>Choose a Currency to convert</h1>
+      <form action="" method="get">
+         <label for="">Choose a quantity</label>
+         <input type="number" name="quantity" min="1" max="10"/>
+         <label for="">Choose a Currency :</label>
+         <select name="Currency" >
+            <option value="INR">Indian Rupee</option>
+            <option value="USD">US Doller</option>
+            <option value="EUR">Euro</option>
+         </select>
+         <button class="btn">Submit</button>
+      </form>
+     <div class="output">
+      <h2>Here is your converted values in diffrenet currencies</h2>
+      <table>
+         <thead>
+            <tr>
+               <th>Currency</th>
+               <th> Code</th>
+               <th>Value</th>
+            </tr>
+         </thead>
+         <tbody>
+         </tbody>
+      </table>
+
+     </div>
+
+   </div>
+
+   <footer>
+    Cpyright & copy: All right reserved @2023
+
+   </footer>
+
+
+
+
+<script  src="Logic.js"></script>
+</body>
+</html>
