@@ -7,7 +7,7 @@ Here are few steps to change Currency to other currency.
    2. Second you choose the currency.
    <br/>
    3.After this you can click the submit button.
-  < br/>
- Result
+
+ Result:
       <br/>
       All data found in way to currency ,code and value.
